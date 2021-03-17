@@ -1,0 +1,25 @@
+.Section {
+  flex: .333;
+  display: flex;
+  align-items: center;
+  min-width: 130px;
+  padding: 10px;
+  cursor: pointer;
+  color: gray;
+  border-width: 0px !important;
+
+  &:hover {
+    background-color: whitesmoke;
+    border-width: 3px !important;
+  }
+
+  &-title {
+    font-size: .9em;
+    margin-left: 15px;
+  }
+}
+
+.Section-selected {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+}

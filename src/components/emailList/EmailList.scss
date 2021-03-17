@@ -1,0 +1,27 @@
+.EmailList {
+  max-height: calc(100vh - 58px);
+  flex: 1;
+  overflow-y: auto;
+
+  &-settings {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(223, 222, 222);
+    background-color: white;
+    z-index: 999;
+    padding-right: 10px;
+  }
+
+  &-sections {
+    //max-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    background-color: white;
+    z-index: 999;
+  }
+}

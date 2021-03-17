@@ -1,0 +1,50 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(223, 222, 222);
+
+  &-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+      object-fit: contain;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+  }
+
+  &-middle {
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+
+    &-input {
+      border: none;
+      width: 100%;
+      padding: 10px;
+      outline: 0;
+      font-size: medium;
+      background-color: transparent;
+    }
+
+    // * Icon color
+    .MuiSvgIcon-root {
+      color: grey;
+    }
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+
+    &-avatar {
+      cursor: pointer;
+    }
+  }
+}
